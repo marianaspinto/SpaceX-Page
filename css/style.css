@@ -27,6 +27,31 @@
   margin-right: 20px;
 }
 
+#button {
+  padding: 15px 35px;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+.footer .copyOBC {
+  color: #555252;
+}
+
 .container00.container01 {
   background-image: url(../../images/home/01.jpg);
 }
@@ -38,6 +63,20 @@
 }
 .container00.container04 {
   background-image: url(../../images/home/04.jpg);
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
 }
 
 /*# sourceMappingURL=style.css.map */
