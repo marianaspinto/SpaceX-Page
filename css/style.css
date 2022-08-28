@@ -321,4 +321,53 @@
   padding-top: 15%;
 }
 
+@media (max-width: 768px) {
+  .container01Content .titleHuman {
+    font-size: 90px;
+  }
+  .container01Content img {
+    width: 150px;
+  }
+  .containetRightContent {
+    margin-left: 15%;
+  }
+  .containerLeftContent {
+    margin-left: 15%;
+  }
+  .earthDesc .textDescEarth {
+    color: #d8d8d8;
+    font-weight: 400;
+    font-size: 18px;
+    width: auto;
+  }
+}
+@media (max-width: 610px) {
+  .container01Content .titleHuman {
+    font-size: 60px;
+  }
+  .container01Content .subTitleHuman {
+    font-size: 24px;
+  }
+  .containetRightContent {
+    margin-left: 5%;
+  }
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+  .titleSection {
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .container01Content .titleHuman {
+    font-size: 40px;
+  }
+  .container01Content .subTitleHuman {
+    font-size: 24px;
+  }
+  .container01Content img {
+    width: 100px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
