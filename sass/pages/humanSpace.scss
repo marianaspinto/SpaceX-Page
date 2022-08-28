@@ -1,0 +1,39 @@
+.container00 {
+    &.container08{
+        background-image: url(../../images/human/01.jpg);
+    }
+
+    &.container09{
+        background-image: url(../../images/human/02.jpg);
+    }
+    
+    &.container10{
+        background-image: url(../../images/human/03.jpg);
+    }
+    
+    &.container11{
+        background-image: url(../../images/human/04.jpg);
+    }
+    
+    &.container12{
+        background-image: url(../../images/human/05.jpg);
+    }
+}
+
+.container01Content{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .titleHuman {
+        font-size: 120px;
+    }
+    .subTitleHuman {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size: 30px;
+        font-size: 300;
+    }
+}
